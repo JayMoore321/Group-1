@@ -1,8 +1,30 @@
 Group-1
 =======
+<?php
 
-CSY2027 Group Project 1
+  $servername = "194.81.104.22";
+  $username = "team1";
+  $password = "group1";
+  $dbname = "db_team1";
 
-Second to last edit <br>
-Last edit
-<sub>you suck</sub>
+
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO CUSTLOGIN (emailaddress, username, password, firstlineaddress, secondlineaddress, county, postcode)
+VALUES ('jackieboi@email.com', 'jackie68', 'password1', '24 Maple Valley Way', 'Northampton', 'Northamptonshire', 'NN24XW')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+$conn->close();
+?>

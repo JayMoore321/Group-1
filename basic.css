@@ -2,3 +2,37 @@
     padding-left: 50px;
     colour: red;
     }
+#header {
+    background-color:#d52e52;
+    color:white;
+    text-align:center;
+    padding:1em;
+    clear: left;
+    padding:4 em;
+    clear:left;
+}
+#nav {
+   float:left;
+   width:105px;
+margin:20 20 20 20
+border-width 40px;
+border-style:solid;
+border-color:black;	
+height:300px;
+    width:100px;      
+}
+#body {
+    width:75%;
+border:20px black;
+line-height:100%;
+ margin-left:190px;
+    margin-right: 10%;
+	 	 
+}
+#footer {
+    background-color#d52e52;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:1 em;	 	 
+}

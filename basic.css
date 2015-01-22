@@ -29,6 +29,14 @@ line-height:100%;
     margin-right: 10%;
 	 	 
 }
+
+#logo {
+    background-image: url('Logo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0% 0%;
+} 
+
 #footer {
     background-color#d52e52;
     color:white;

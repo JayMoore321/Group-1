@@ -1,0 +1,33 @@
+#nav {
+   	float:center;
+	margin:20, 20, 20, 20;
+	border-width: 0px;
+	border-style:solid;
+	border-color:#00CC99;
+	background-color:#0099FF;
+        color: white;
+        text-align: center;
+        padding: 5;
+}
+#footer {
+    background-color:#0099FF;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5;
+}
+#header {
+    background-color:#0099FF;
+    color:white;
+    text-align:center;
+    padding:1em;
+    clear: left;
+    padding:4 em;
+    clear:left;
+    background-image: url('logo1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 5% 5%;
+    max-width: auto;
+    height: 10%;
+}

@@ -1,0 +1,57 @@
+<html>
+<head>
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 150px;
+    background-color: 
+    blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase
+    padding: 5px;
+
+}
+   a:hover, a:active {
+       background-color: darkblue;
+
+   }
+        h1 {
+    background-color: blue;
+   color: white;
+  }
+
+</style>
+
+<title>
+Homepage
+</title>
+
+</head>
+<body>
+<h1>Prism Games</h1>
+<img src="LOGO2.jpg.png" alt="lOGO" style="width:304px;height:228px">
+
+<ul>
+  <li><a href="homepage.php">Homepage</a></li>
+  <li><a href="ps4.php">PS4</a></li>
+  <li><a href="xbox.php">Xbox</a>
+  <li><a href="offers.php">New Offers</a></li>
+</ul>
+
+</body>
+</html>

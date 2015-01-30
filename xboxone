@@ -1,9 +1,15 @@
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="basic.css">
+</head>
 <body>
 
 <title>XBOX ONE</title>
+<p id=nav> HEELLLLOOOOOOO </p>
 
 </body>
+<footer>
+</footer>
 </html>
 
 

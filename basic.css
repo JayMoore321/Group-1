@@ -1,46 +1,13 @@
-# nav{
-    padding-left: 50px;
-    colour: blue;
-    }
-#header {
-    background-color:blue;
-    color:white;
-    text-align:center;
-    padding:1em;
-    clear: left;
-    padding:4 em;
-    clear:left;
-}
-#nav {
-   	float:center;
-   	width:400px;
-	margin:20 20 20 20
-	border-width 40px;
-	border-style:solid;
-	border-color:blue;	
-	height:100px;      
-}
-#body {
+body {
 	width:75%;
 	border:20px black;
 	line-height:100%;
  	margin-left:190px;
     	margin-right: 10%;
-    	background-color:green;
-	 	 
+    	background-color:#00CC99;
+    	color:white;
 }
+a {
+        color:orange;
 
-#logo {
-    background-image: url('Logo2.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 5% 5%;
-} 
-
-#footer {
-    background-color:blue;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding:1 em;	 	 
 }

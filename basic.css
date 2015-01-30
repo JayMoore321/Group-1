@@ -1,9 +1,9 @@
 # nav{
     padding-left: 50px;
-    colour: red;
+    colour: blue;
     }
 #header {
-    background-color:#d52e52;
+    background-color:blue;
     color:white;
     text-align:center;
     padding:1em;
@@ -12,21 +12,21 @@
     clear:left;
 }
 #nav {
-   float:left;
-   width:105px;
-margin:20 20 20 20
-border-width 40px;
-border-style:solid;
-border-color:black;	
-height:300px;
-    width:100px;      
+   	float:center;
+   	width:400px;
+	margin:20 20 20 20
+	border-width 40px;
+	border-style:solid;
+	border-color:blue;	
+	height:100px;      
 }
 #body {
-    width:75%;
-border:20px black;
-line-height:100%;
- margin-left:190px;
-    margin-right: 10%;
+	width:75%;
+	border:20px black;
+	line-height:100%;
+ 	margin-left:190px;
+    	margin-right: 10%;
+    	background-color:green;
 	 	 
 }
 
@@ -38,9 +38,9 @@ line-height:100%;
 } 
 
 #footer {
-    background-color#d52e52;
+    background-color:blue;
     color:white;
     clear:both;
     text-align:center;
-   padding:1 em;	 	 
+    padding:1 em;	 	 
 }

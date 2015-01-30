@@ -1,0 +1,83 @@
+<html>
+<head>
+<script type="text/javascript">
+        //opening of javascript
+	
+	// Function to validate an email address 
+	function validEmailAddress() {
+	    var email = document.forms["comments"]["email"].value;
+	    var atpos = email.indexOf("@");
+	    var dotpos = email.lastIndexOf(".");
+	    if (1>atpos || 2+atpos>dotpos|| 2+dotpos>=email.length)
+            //checks the contect of the form
+            {
+		return false;
+	    }
+            else
+            //if it passes then it is true 
+            {
+		return true;
+	    }
+	}
+	
+	function validateForm() {
+	    
+	    // Validate each form field that is required
+	    
+	    var f = document.forms["comments"];
+	    
+	    if (!validEmailAddress() || f["name"].value == "" || f["comment"].value == "") {
+		// Display an error message as the required fields are not filled out
+		document.getElementById("form-error").innerHTML = "Please ensure you fill out all of the required fields.";
+		return false;
+	    } 
+	    
+	    return true;
+	}
+    </script>
+    
+<title>
+Feeback
+</title>
+</head>
+<body>
+<h2>Thank you for shopping at Prism, I would love to hear from you!</h2>
+<div id="form-error"></div>
+		<form class="c1" action="mailto:prismcompany1@gmail.com" id="comments" onsubmit="validateForm()" method="post" enctype="text/plain">
+		<p>Name:*</p>
+		<p><input type="text" name="name" value="" /></p> 
+		<p>E-mail:*</p>
+		<p><input type="text" name="email" value="" /></p> 
+<p><strong>Web pages you liked the most:</strong>
+ 
+<select name="firstdropdown">
+<option value="Homepage">Homepage</option>
+
+
+</select>
+    
+    <select name="seconddropdown"> // drop dowwn boxes two choices
+<option value="Homepage">Homepage</option>
+
+</select>
+
+<p><strong> How did you find the site:</strong><br>
+
+Search engine <input name = "find" id="search" type = "radio" value = "search engine" >
+Magazine <input name = "find" id="magazine" type = "radio" value = "teacher">
+Friend <input name = "find" id="friend" type = "radio" value = "friend">  
+Luck<input name = "find" id="friend" type = "radio" value = "Luck">  
+Website<input name = "find" id="friend" type = "radio" value = "Website">    
+		<p><select name=""> // radio buttons used only once choice
+
+		   <option selected="selected">Student</option>
+		    <option>Lecturer</option>
+		</select></p>
+		<p>Comment:*</p>
+		<p><input type="text" name="comment" value="" size="50" /></p>
+		<p><input type="submit" value="Send" /> <input type="reset" value="Reset"/></p> 
+		</form>
+
+
+</body>
+</html>

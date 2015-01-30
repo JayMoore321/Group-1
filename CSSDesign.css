@@ -1,0 +1,70 @@
+/* CSS layout */
+
+body {/* sets the style of the websites outer surroundings. */
+	margin: 0;
+	padding: 10;
+	background-color: #F9FFE2;; /*light green*/
+	height:100%;
+	}
+
+div.logo{
+height: 100px;
+background-color: #F0F100;
+width: 200px;
+display: inline-block;   
+   
+}
+
+div.login{
+    height: 100px;
+    width: 300px;
+    background-color: #F900F2;
+    display: inline-block;
+    margin-left: 700px;
+}
+    
+
+div.top-bar{
+height: 200px;
+background-color: #A6D9ED;    
+}
+
+div.Search_Bar{
+height: 50px;
+background-color: #84DDA4;
+margin-top: 45px;
+} 
+    
+    
+    
+}
+/*
+div.form {
+    padding: 10;
+    border-style: solid;
+	border-width: 1px;
+	width: 600px;
+    min-height: 600px;
+	margin: auto;
+	background-color: #ABFFFF; /* Light blue*/ /*
+}
+div.log {
+width: 200px;
+float: right;
+height: inherit;
+list-style-type: none;
+margin-left: 10px;
+border: 2px solid;
+background-color: #87FFFF;
+   
+}
+<!--login.h3 {
+    width: 200px;
+	float: right;
+	height:inherit;
+	list-style-type: none;
+	margin-left:10px;
+    background-color: #ABFFFF; /* Light blue*/ 
+    /*
+}--> */
+

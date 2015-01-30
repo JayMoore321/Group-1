@@ -17,7 +17,7 @@ a:link, a:visited {
     display: block;
     width: 150px;
     background-color: 
-    blue;
+    green;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -27,14 +27,10 @@ a:link, a:visited {
 
 }
    a:hover, a:active {
-       background-color: darkblue;
+       background-color: purple;
 
    }
-        h1 {
-    background-color: blue;
-   color: white;
-  }
-
+       
 </style>
 
 <title>
@@ -43,8 +39,8 @@ Homepage
 
 </head>
 <body>
-<h1>Prism Games</h1>
-<img src="LOGO2.jpg.png" alt="lOGO" style="width:304px;height:228px">
+
+<img src="LOGO2.jpg.png" alt="lOGO" style="width:200px;height:150px">
 
 <ul>
   <li><a href="homepage.php">Homepage</a></li>

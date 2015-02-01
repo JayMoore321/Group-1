@@ -7,7 +7,7 @@ body {/* sets the style of the websites outer surroundings. */
 	height:100%;
 	}
 
-div.logo{
+div.Logo{
 height: 100px;
 background-color: #F0F100;
 width: 200px;
@@ -15,7 +15,7 @@ display: inline-block;
    
 }
 
-div.login{
+div.Login{
     height: 100px;
     width: 300px;
     background-color: #F900F2;
@@ -24,7 +24,7 @@ div.login{
 }
     
 
-div.top-bar{
+div.Top-Bar{
 height: 200px;
 background-color: #A6D9ED;    
 }

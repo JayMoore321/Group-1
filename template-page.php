@@ -1,17 +1,17 @@
 <html>
 <link href="CSSDesign.css" rel="stylesheet" type="text/css" />
 <body>
-<div class="top-bar">
+<div class="Top-Bar">
 <div class="Logo">
     
 </div> 
-<div class="login">
+<div class="Login">
 
     
     
       
 </div>
-<div class="Search_Bar">
+<div class="Nav_Bar">
     
 </div>
 </div>

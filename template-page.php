@@ -17,6 +17,16 @@
 </div>
 </div>
 <div class="Nav_Bar">
+
+<div id='nav'>
+<ul>
+   <li class='active'><a href='#'><span>Home</span></a></li>
+   <li><a href='#'><span>Ps4</span></a></li>
+   <li><a href='#'><span>Xbox One</span></a></li>
+   <li><a href='#'><span>Latest Offers</span></a></li>
+   <li class='last'><a href='#'><span>New Releases</span></a></li>
+</ul>
+
     
 </div>
 </div>

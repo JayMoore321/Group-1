@@ -74,6 +74,13 @@ slider()
     
   </body>     
 <footer>
+<nav>
+<ul>
+<li><a href="">Feedback Form</a></li>
+<li><a href="">Contact Us</a></li>
+<li><a href="">product guarantee </a></li>
+</ul>
+</nav>
     
     
     </footer>    

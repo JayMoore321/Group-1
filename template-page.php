@@ -2,7 +2,7 @@
 <head>
 <link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
 <link href="navbar.css" rel="stylesheet" type="text/css" />
-
+<?php session_start(); ?>
 <script type="text/javascript">
 
 var image = new Array()

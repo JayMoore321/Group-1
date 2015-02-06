@@ -1,12 +1,9 @@
 <?php
-$cookie_name = "user";
-$cookie_pass = "pass";
-$cookie_level = "lev";
-$cookie_value = "";
-$cookie_titleForRegister = "titleForRegister";
-$cookie3_locationForRegister = "locationForRegister";
+$Session_name = "user";
+$Session_pass = "pass";
+$Session_value = "";
 
-if ((isset($_COOKIE[$cookie_name]) && isset($_COOKIE[$cookie_pass]) && isset($_COOKIE[$cookie_pass])) == $cookie_value){
+if ((isset($_SESSION[$Session_name]) && isset($_SESSION[$Session_name])) == ($Session_value)){
 ?>
 <form action="login.php" method="post" style="display: inline-block;">
 Username: 
@@ -24,7 +21,12 @@ Login:
 <?php    
     }
 else {
-    echo "Hello: " . $_COOKIE[$cookie_name];
+    echo "Hello: ".$_SESSION[$Session_name];
+    ?>
+<form action="Logout_script.php" method="post" style="display: inline-block;"> 
+<button type="submit" name="logout" value="logout" />Logout</button>
+</form>
+<?php
 }
 
 ?>

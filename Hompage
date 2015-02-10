@@ -1,64 +1,113 @@
-
-
 <html>
 <head>
-	<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+<link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
+<link href="navbar.css" rel="stylesheet" type="text/css" />
+<link href="footer.css" rel="stylesheet" type="text/css" />
+<?php session_start();?>
+<script type="text/javascript">
 
-}
+var image = new Array()
+image[0] = new Image()
+image[0].src = "slideshow1.jpg"
+image[1] = new Image()
+image[1].src = "slideshow2.jpg"
+image[2] = new Image()
+image[2].src = "slideshow3.jpg"
+image[3] = new Image()
+image[3].src = "slideshow4.jpg"
 
-li {
-    float: left;
-}
+</script>
 
-a:link, a:visited {
-    display: block;
-    width: 150px;
-    background-color: 
-    green;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase
-    padding: 5px;
-
-}
-   a:hover, a:active {
-       background-color: purple;
-
-   }
-
-
-</style>
-
-<title>
-Homepage
-</title>
+<Title> Prism Games | Homepage</title>
 
 </head>
+
 <body>
-<img src="LOGO2.jpg.png" alt="lOGO" style="width:200px;height:150px">
+<div class="Pagewrap">
+<div class="Top-Bar">
+<div class="Logo">
+ 
+<a href="Homepage.php">
+  <img src="LOGO2.jpg.png" alt="lOGO" style="width:200px; height:150px">
+</a> 
 
-<float:right>	 	<form method="post" action="Homepage.php">
-                         <b>Username: </b><input type="text" name="username"><br/>
-                         <b>Password: </b><input type="text" name="password"><br/>
-			<input type="submit" value = "Log in">
-		</form>
-</float>
-
-
-
+</div>
+<div class="Hold">
+<div class="Login">
+<?php include('login-script.php'); ?>
+</div>
+	<div class="Search_Bar">
+<script>
+  (function() {
+    var cx = '005131504979053412877:yw_sh9c9oda';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+	</div>
+	<div class="Basket">
+	
+    </div>
+</div>
+<div id='nav'>
 <ul>
-  <li><a href="homepage.php">Homepage</a></li>
-  <li><a href="ps4.php">PS4</a></li>
-  <li><a href="xbox.php">Xbox</a>
-  <li><a href="offers.php">New Offers</a></li>
+   <li class='active'><a href='#'><span>Home</span></a></li>
+   <li><a href='ps4page.php'><span>Ps4</span></a></li>
+   <li><a href='xboxonepage.php'><span>Xbox One</span></a></li>
+   <li><a href='latestoffers.php'><span>Latest Offers</span></a></li>
+   <li class='last'><a href='newreleases.php'><span>New Releases</span></a></li>
 </ul>
 
+</div>
+
+
+<img src="slideshow1.jpg" id="slide" width="1050" height="400" />
+
+<script type="text/javascript">
+
+
+var show=0
+
+function slider(){
+ document.getElementById('slide').src = image[show].src
+ if (show<3)
+  show++
+ else
+  show=0
+
+ setTimeout("slider()",5000)
+}
+
+slider()
+</script>
+    
+</div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
 </body>
+<footer>    
+<div id='footer'> 
+<ul>
+    <li><a href="">Feedback Form</a></li>
+	<li><a href="">Contact Us</a></li>
+	<li><a href="">Product Guarantee </a></li>
+</ul>
+	</div>
+	</footer>   
+
+
+</div>
 </html>

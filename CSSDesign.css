@@ -7,61 +7,36 @@ body {/* sets the style of the websites outer surroundings. */
 	height:100%;
 	}
 
-div.Logo{
+div.logo{
 height: 100px;
 background-color: #F0F100;
-width: 200px;
-display: inline-block;
-<!--background-image: url("http://www.computing.northampton.ac.uk/~2027c_1/LOGO2.jpg.png");
-background-size: width:200px;height:150px; -->
+width: 200px;    
    
 }
-div.Hold{
-width: 600px;
-background-color: #F900F2;
-display: inline-block;
-height: 100px;    
-    
-    
-    
-}
-div.Login{
-    height: 50px;
-width: 500px;
-background-color: #F900F2;
-display: inline-block;
-margin-left: 400px;
-margin-bottom: 50px;
-}
-    
 
-div.Top-Bar{
-height: 255px;
-background-color: #A6D9ED;    
+div.login{
+height: 100px;
+width: 100px;
+background-color: #F900F2;
+    
 }
-div.Basket{
-    height: 50px;
-width: 200px;
-background-color: #FFB1B1;
-display: inline-block;
-}  
+div.top-bar{
+height: 200px;
+background-color: #A6D9ED;
+position: fixed; 
+    
+    
+    
+}
 div.Search_Bar{
-height: 50px;
-width: 200px;
-background-color: #AE3434;
-display: inline-block;
-margin-right: 100px;
-margin-bottom: 0px;   
-    
-}
-
-div.Nav_Bar{
-height: 50px;
-background-color: #84DDA4;
-margin-top: 45px;
+     height: 100px;
+    background-color: #84DDA4;
+    width: 200px;
 } 
     
-
+    
+    
+}
 /*
 div.form {
     padding: 10;

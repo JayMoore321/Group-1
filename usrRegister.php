@@ -25,20 +25,12 @@ text-align:center;
 </head>
 
 <body>
-<div class="Pagewrap">
-<div class="Top-Bar">
-<div class="Logo">
- 
-<a href="Homepage.php">
-  <img src="LOGO2.jpg.png" alt="lOGO" style="width:200px; height:150px">
-</a> 
-
-</div>
-<div class="Hold">
-<div class="Login">
+<div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--
+--><img src="LOGO3.png" alt="lOGO" style="width:200px; height:150px"><h1 style="font-size: 14px; text-align: center;">PRISM GAMES</h1><!--
+--></div><div class="Hold"><div class="Login">
 <?php include('login-script.php'); ?>
 </div>
-	<div class="Search_Bar">
+<div class="Search_Bar">
 <script>
   (function() {
     var cx = '005131504979053412877:yw_sh9c9oda';
@@ -68,7 +60,7 @@ text-align:center;
    <li class='last'><a href='newreleases.php'><span>New Releases</span></a></li>
 </ul>
 
-</div>
+</div></div>
 <div class='main-content'>
 
 

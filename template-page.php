@@ -22,13 +22,9 @@ image[3].src = "slideshow4.jpg"
 </head>
 
 <body>
-<div class="Pagewrap">
-<div class="Top-Bar">
-<div class="Logo">
-<img src="LOGO2.jpg.png" alt="lOGO" style="width:200px; height:150px">
-</div>
-<div class="Hold">
-<div class="Login">
+<div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--
+--><img src="LOGO3.png" alt="lOGO" style="width:200px; height:150px"><h1 style="font-size: 14px; text-align: center;">PRISM GAMES</h1><!--
+--></div><div class="Hold"><div class="Login">
 <?php include('login-script.php'); ?>
 </div>
 <div class="Search_Bar">
@@ -45,11 +41,7 @@ image[3].src = "slideshow4.jpg"
   })();
 </script>
 <gcse:search></gcse:search>
-</div>
-<div class="Basket">
-    
-</div>
-</div>
+</div><div class="Basket"></div></div>
 <div class="Nav_Bar">
 
 <div id='nav'>
@@ -62,8 +54,7 @@ image[3].src = "slideshow4.jpg"
 </ul>
 
     
-</div>
-<div>
+    </div></div></div><div>
 <img src="slideshow1.jpg" id="slide" width="1050" height="400" />
 
 <script type="text/javascript">

@@ -14,9 +14,11 @@ Login:
 <button type="submit" name="login" value="login" />Login</button>
 
 </form>
-<form action="register.php" method="post" style="display: inline-block;"> 
+<form action="usrRegister.php" method="post" style="display: inline-block;"> 
 <button type="submit" name="register" value="registers" />Sign Up!</button>
 </form>
+<a href="forgotten-password.php" style="display: inline-block; margin-left: 310px; margin-top: -20px;"> 
+Forgotten Password?</a>
     
 <?php    
     }

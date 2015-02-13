@@ -27,10 +27,10 @@ else {
 session_start(); 
 $_SESSION[$Session_name] = $usr;
 $_SESSION[$Session_pass] = $pss; 
-header('Location: /~2027c_1/template-page.php');
+header('Location: /~2027c_1/Homepage.php');
 } 
 else{
-   header('Location: /~2027c_1/template-page.php');
+   header('Location: /~2027c_1/Homepage.php');
 
 }
     }

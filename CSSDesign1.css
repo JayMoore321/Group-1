@@ -15,17 +15,17 @@ background-color: #00BFFF;
      
 }
 div.Logo{
-height: 150px;
+height: 159px;
 background-color: #F0F100;
 width: 200px;
 display: inline-block;
    
 }
 div.Hold{
-width: 846px;
+width: 850px;
 background-color: rgb(249, 100, 42);
 display: inline-block;
-height: 150px;    
+height: 175px;    
     
     
     
@@ -35,29 +35,28 @@ height: 50px;
 width: 700px;
 background-color: #F900F2;
 display: inline-block;
-margin-bottom: 50px;
-    margin-left: 145px;
+margin-bottom: 62px;
+margin-left: 150px;
 }
     
 
 div.Top-Bar{
-height: 255px;
+height: 225px;
 background-color: #A6D9ED;    
 }
 div.Basket{
-    height: 50px;
+height: 50px;
 width: 200px;
 background-color: #FFB1B1;
 display: inline-block;
-}  
+margin-left: 345px;
+}
+
 div.Search_Bar{
 height: 50px;
-width: 200px;
+width: 300px;
 background-color: #AE3434;
 display: inline-block;
-margin-right: 100px;
-margin-bottom: 0px;   
-    
 }
 
 div.Nav_Bar{

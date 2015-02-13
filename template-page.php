@@ -42,7 +42,6 @@ image[3].src = "slideshow4.jpg"
 </script>
 <gcse:search></gcse:search>
 </div><div class="Basket"></div></div>
-<div class="Nav_Bar">
 
 <div id='nav'>
 <ul>
@@ -54,7 +53,8 @@ image[3].src = "slideshow4.jpg"
 </ul>
 
     
-    </div></div></div><div>
+</div></div>
+<div class="Main-Content">
 <img src="slideshow1.jpg" id="slide" width="1050" height="400" />
 
 <script type="text/javascript">
@@ -76,7 +76,9 @@ slider()
 </script>    
 </div>   
     
-  </body>     
+  </body> 
+  </div>
+  <div class="footer">    
 <footer>
 <nav>
 <ul>
@@ -88,7 +90,7 @@ slider()
     
     
     </footer>    
-
+</div>
 
 </div>
 </html>

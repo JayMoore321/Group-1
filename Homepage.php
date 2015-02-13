@@ -2,20 +2,6 @@
 <head>
 <link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
 <link href="navbar.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-
-div.footer
-{
-padding:1 em;
-color:white;
-background-color:teal;
-clear:left;
-font-size:70%;
-text-align:center;
-}
-
-</style>
-
 <?php session_start();?>
 <script type="text/javascript">
 
@@ -69,6 +55,7 @@ image[3].src = "slideshow4.jpg"
 
 </div>
 </div>
+<div class="Main-Content">
 <div class="slideshow">
 <img src="slideshow1.jpg" id="slide" width="1050" height="400" />
 </div>
@@ -180,7 +167,7 @@ slider()
 </div>  
 </div>
     
-    
+</div>    
 <div class="footer">
 <script> 
 document.write(document.lastModified);

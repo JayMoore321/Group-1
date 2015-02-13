@@ -15,7 +15,7 @@ background-color: #00BFFF;
      
 }
 div.Logo{
-height: 159px;
+height: 150px;
 background-color: #F0F100;
 width: 200px;
 display: inline-block;
@@ -26,9 +26,7 @@ width: 850px;
 background-color: rgb(249, 100, 42);
 display: inline-block;
 height: 175px;    
-    
-    
-    
+
 }
 div.Login{
 height: 50px;
@@ -36,7 +34,7 @@ width: 700px;
 background-color: #F900F2;
 display: inline-block;
 margin-bottom: 62px;
-margin-left: 150px;
+    margin-left: 145px;
 }
     
 
@@ -49,7 +47,7 @@ height: 50px;
 width: 200px;
 background-color: #FFB1B1;
 display: inline-block;
-margin-left: 345px;
+margin-left: 242px;
 }
 
 div.Search_Bar{
@@ -57,41 +55,29 @@ height: 50px;
 width: 300px;
 background-color: #AE3434;
 display: inline-block;
+margin-right: 100px;
+margin-bottom: 0px;   
+    
 }
 
 div.Nav_Bar{
 height: 50px;
 background-color: #84DDA4;
 } 
+
+div.footer
+{
+padding:1 em;
+color:white;
+background-color:teal;
+clear:left;
+font-size:70%;
+text-align:center;
+}
     
-
-/*
-div.form {
-    padding: 10;
-    border-style: solid;
-	border-width: 1px;
-	width: 600px;
-    min-height: 600px;
-	margin: auto;
-	background-color: #ABFFFF; /* Light blue*/ /*
+/*div.Main-Content{
+background-color: #FF00AB;
+min-height: 600px;    
+    
 }
-div.log {
-width: 200px;
-float: right;
-height: inherit;
-list-style-type: none;
-margin-left: 10px;
-border: 2px solid;
-background-color: #87FFFF;
-   
-}
-<!--login.h3 {
-    width: 200px;
-	float: right;
-	height:inherit;
-	list-style-type: none;
-	margin-left:10px;
-    background-color: #ABFFFF; /* Light blue*/ 
-    /*
-}--> */
-
+*/

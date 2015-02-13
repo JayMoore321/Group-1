@@ -62,6 +62,7 @@ text-align:center;
  
 </div>
 </div>
+<div class="Main-Content">
     
  <div style ="width: 1050px; margin:0 auto; height:1000px; border:1px solid black; overflow:scroll; overflow-y:hidden;"">
  <table class="ps4table" border="0" width="2000px" align="center" "border-spacing: 10px;">
@@ -164,8 +165,8 @@ text-align:center;
 </table> 
 </div>  
     
-    
-  <div id="footer">
+</div>    
+  <div class="footer">
 
 <ul>
     <li><a href="feedbackform.php">Feedback Form</a></li>

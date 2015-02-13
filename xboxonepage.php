@@ -155,7 +155,7 @@ text-align:center;
 </div>  
     
     
-  <div id="footer">
+    <div class="footer">
 
 <ul>
     <li><a href="feedbackform.php">Feedback Form</a></li>

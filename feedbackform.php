@@ -109,9 +109,6 @@ return true;
   
   <br>
   
-  <p><strong>Web pages you liked the most:</strong>
-</br>
-  <select multiple>
     <option value="Homepage">Homepage</option>
 	<option value="Homepage">Product Viewing Pages</option>
 	<option value="Homepage">Individual Game Pages</option>

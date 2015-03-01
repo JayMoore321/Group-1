@@ -7,13 +7,13 @@
 
 var image = new Array()
 image[0] = new Image()
-image[0].src = "slideshow1.jpg"
+image[0].src = "3.jpg"
 image[1] = new Image()
-image[1].src = "slideshow2.jpg"
+image[1].src = "4.jpg"
 image[2] = new Image()
-image[2].src = "slideshow3.jpg"
+image[2].src = "5.jpg"
 image[3] = new Image()
-image[3].src = "slideshow4.jpg"
+image[3].src = "6.jpg"
 
 </script>
 <Title> Prism Games | Homepage</title>

@@ -169,14 +169,27 @@ slider()
     
 </div>    
 <div class="footer">
-<script> 
+
+
+<table>
+</tr>
+<center>
+<td><li><a href="feedbackform.php">Feedback Form</a></li></td>
+
+	<td><li><a href="contactus.php">Contact Us</a></li></td>
+	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
+	<td><li><a href=""> Twitter </a></li></td>
+	<td><li><a href="">Facebook </a></li></td>
+	<script> 
 document.write(document.lastModified);
 </script>
-<li><a href="feedbackform.php">Feedback Form</a></li>
-	<li><a href="">Contact Us</a></li>
-	<li><a href="">Product Guarantee </a></li>
+</center>
+</tr>
+</table>
+	
 </div>
         
+
  </div>   
 </body>
 </html>

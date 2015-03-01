@@ -4,20 +4,6 @@
 <link href="navbar.css" rel="stylesheet" type="text/css" />
 
 
-<style type="text/css">
-
-div.footer
-{
-padding:1 em;
-color:white;
-background-color:teal;
-clear:left;
-font-size:70%;
-text-align:center;
-}
-
-</style>
-
 <?php session_start();?>
 
 <script type="text/javascript">

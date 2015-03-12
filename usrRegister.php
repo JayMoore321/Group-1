@@ -114,14 +114,23 @@ $db->close();
     
     </div>    
 <div class="footer">
-<script> 
+<table>
+</tr>
+<center>
+<td><ul><a href="feedbackform.php">Feedback Form</a></ul></td>
+
+	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
+	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
+	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
+	<td><ul><a href=""> Twitter </a></ul></td>
+	<td><ul><a href="">Facebook </a></ul></td>
+	<script> 
 document.write(document.lastModified);
 </script>
-<li><a href="feedbackform.php">Feedback Form</a></li>
-	<li><a href="">Contact Us</a></li>
-	<li><a href="">Product Guarantee </a></li>
+</center>
+</tr>
+</table>
+	
 </div>
-        
-    
 </body>
 </html>

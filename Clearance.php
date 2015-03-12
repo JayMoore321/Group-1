@@ -147,23 +147,24 @@
     
 </div>    
  <div class="footer">
-
-
 <table>
 </tr>
 <center>
-<td><li><a href="feedbackform.php">Feedback Form</a></li></td>
+<td><ul><a href="feedbackform.php">Feedback Form</a></ul></td>
 
-	<td><li><a href="contactus.php">Contact Us</a></li></td>
-	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
-	<td><li><a href=""> Twitter </a></li></td>
-	<td><li><a href="">Facebook </a></li></td>
+	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
+	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
+	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
+	<td><ul><a href=""> Twitter </a></ul></td>
+	<td><ul><a href="">Facebook </a></ul></td>
 	<script> 
 document.write(document.lastModified);
 </script>
 </center>
 </tr>
 </table>
+	
+</div>
 	
 </div>
         

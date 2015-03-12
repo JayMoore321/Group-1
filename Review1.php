@@ -98,7 +98,7 @@ if ($result->num_rows > 0) {
 <table>
 </tr>
 <center>
-<td><li><a href="feedbackform.php">Feedback Form</a></li></td>
+    <td><ul><li><a href="feedbackform.php">Feedback Form</a></li></ul></td>
 
 	<td><li><a href="contactus.php">Contact Us</a></li></td>
 	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>

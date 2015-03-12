@@ -3,9 +3,20 @@
 <link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
 <link href="navbar.css" rel="stylesheet" type="text/css" />
 <?php session_start();?>
-<Title> Prism Games | Register</title>
-</head>
+<script type="text/javascript">
+var image = new Array()
+image[0] = new Image()
+image[0].src = "slideshow1.jpg"
+image[1] = new Image()
+image[1].src = "slideshow2.jpg"
+image[2] = new Image()
+image[2].src = "slideshow3.jpg"
+image[3] = new Image()
+image[3].src = "slideshow4.jpg"
 
+</script>
+<Title> Prism Games | Homepage</title>
+</head>
 <body>
 <div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--
 --><img src="LOGO3.png" alt="lOGO" style="width:200px; height:150px"><h1 style="font-size: 14px; text-align: center;">PRISM GAMES</h1><!--
@@ -31,8 +42,7 @@
 
 
 	
-    </div>
-</div>
+    </div></div>
 <div id='nav'>
 <ul>
    <li class='active'><a href='Homepage.php'><span>Home</span></a></li>
@@ -42,77 +52,82 @@
    <li class='last'><a href='newreleases.php'><span>New Releases</span></a></li>
 </ul>
 
-</div></div>
-<div class='main-content'>
+</div>
+</div>
+<div class="Main-Content">
+<script type="text/javascript">
 
 
+var show=0
 
-<h1>Register: </h1>
-<table><tr><td>
-<form id = "register" method="post" action= "usrRegister.php">
-<p>Username: </p>
-<input type="text" name="regUsername" required><br></td><td>
-<p>Password: </p>
-<input type="password" name="regPassword" required><br></td><td>
-<p>Email Address</p>
-<input type="email" name="regEmail" required><br></td><td>
-<p>Delivery Address</p>
-<input type="text" name="regDelAdd" required><br></td></tr><tr><td>
-<p>Delivery Postcode</p>
-<input type="text" name="regDelPost" required><br></td><td>
-<p>Billing Address</p>
-<input type="text" name="regBilAdd" required><br></td><td>
-<p>Billing Postcode</p>
-<input type="text" name="regBilPost" required><br></td><td>
-    <button type=submit>Register</button></td></tr>
-</form>
-</table>
+function slider(){
+ document.getElementById('slide').src = image[show].src
+ if (show<3)
+  show++
+ else
+  show=0
 
-<?php
+ setTimeout("slider()",5000)
+}
+
+slider()
+</script>
+<div class="forgotten">
+<h1>Forgotten your password? <br>Please enter your email address below.</h1>    
+
+<form id ="checkDForEmail" method="post" action= "forgotten-password.php">
+Email: 
+<input type="email" name="foremail" /> <!--//echo rand(5, 15);-->
+<button type=submit>Send</button>
+</form>    
+ <?php
 $Session_name = "user";
 $Session_pass = "pass";
-if (isset($_POST['regUsername'])){
+if (isset($_POST['foremail'])){
 include('DB_connection.php');
-$sql= "SELECT username FROM CUSTOMER";
+$sql= "SELECT emailaddress, email_number FROM CUSTOMER";
 $result=$db ->query($sql);
 if(!$result){
 die('There was an error running the query' .$db->error);
 }
 if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
-        if(($row["username"]) == ($_POST["regUsername"])){
+        if(($row["emailaddress"]) == ($_POST["foremail"])){
+            $email = $row["emailaddress"];
+            $code = $row["email_number"];
+        ?>
+    <h1>Email address is vaild please press send</h1>
+    
+    <form enctype="text/plain" method="post" action="mailto:<?php echo $email ?>?subject=Reset%20Email%20Prism%20Games&body=Please%20follow%20the%20link%20below%20and%20enter%20your%20unique%20code%0D%0A
+code:%20<?php echo $code ?> %0D%0A
+http://www.computing.northampton.ac.uk/~2027c_1/reset-password.php?emailadd=<?php echo $email ?>"> 
+    
+    <button type=submit>Send</button>
+    </form>
+<?php
+            
         
-             ?> <h1>Sorry these details are already in use please try again.</h1><?php
-            exit;
-                                                }
+        
+        }
                                          }
 
                                 }
-
-$randomNum = rand(1000, 9999);
-$query = "INSERT INTO CUSTOMER  values('".$_POST['regUsername']."','".$_POST['regPassword']."','".$_POST["regEmail"]."','".$_POST['regDelAdd']."','".$_POST['regDelPost']."','".$_POST['regBilAdd']."','".$_POST['regBilPost']."','".$randomNum."','')";
-
-
-if(!$db->query($query)){
-                die('There was an error running the query ' . $db->error);
-        }
-unset($_SESSION);
-session_destroy();
-session_write_close();
-session_start(); 
-$_SESSION[$Session_name] = $_POST["regUsername"];
-$_SESSION[$Session_pass] = $_POST["regPassword"]; 
-header('Location: /~2027c_1/Homepage.php');
-    
-
-$db->close();
+     else{ ?> <h1>email address not found</h1><?php
+            exit;
+    }
 }
-?>
- 
-  
-
+    ?>
+<!--<form enctype="text/plain" method="post" action="mailto:" -->
     
-    </div>    
+    
+
+
+</div>
+    
+    
+</div>  
+
+       
 <div class="footer">
 <script> 
 document.write(document.lastModified);
@@ -122,6 +137,6 @@ document.write(document.lastModified);
 	<li><a href="">Product Guarantee </a></li>
 </div>
         
-    
+ </div>   
 </body>
 </html>

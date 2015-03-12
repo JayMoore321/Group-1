@@ -3,7 +3,7 @@ $Session_name = "user";
 $Session_pass = "pass";
 $Session_value = "";
 
-if ((isset($_SESSION[$Session_name]) && isset($_SESSION[$Session_name])) == ($Session_value)){
+if (((empty($_SESSION[$Session_name])) && empty($_SESSION[$Session_name])){
 ?>
 <form action="login.php" method="post" style="display: inline-block;">
 Username: 

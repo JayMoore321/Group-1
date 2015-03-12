@@ -8,7 +8,7 @@ $Session_value = "";
 include('DB_connection.php');
 
 
-$sql= "SELECT * FROM ADMIN WHERE username='$myusername' AND password='$mypassword'";
+$sql= "SELECT * FROM CUSTOMER WHERE username='$myusername' AND password='$mypassword'";
 $result=$db ->query($sql);
 if(!$result){
 die('There was an error running the query' .$db->error);
@@ -30,7 +30,7 @@ $_SESSION[$Session_pass] = $pss;
 header('Location: /~2027c_1/Homepage.php');
 } 
 else{
-   header('Location: /~2027c_1/Homepage.php');
+  header('Location: /~2027c_1/Homepage.php');
 
 }
     }

@@ -64,7 +64,7 @@
 
 <h1 style="color:red"><p><center>Clearance - Must Go </center></p></h1>
     
- <div style ="width: 1050px; margin:0 auto; height:1000px; border:0px solid black; overflow:scroll; overflow-y:hidden;"">
+ <div style ="width: 1050px; margin:0 auto; height:1000px; border:0px solid black; overflow:scroll; overflow-y:hidden;>
  <table class="ps4table" border="0" width="2000px" align="center" "border-spacing: 10px;">
   <tr width="200px">
 

@@ -183,7 +183,7 @@ slider()
 	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
 	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
 	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
-	<td><ul><a href=""> Twitter </a></ul></td>
+	<td><ul><a href="https://www.twitter.com/Prism_Games_"> Twitter </a></ul></td>
 	<td><ul><a href="https://www.facebook.com/PrismGames?fref=ts">Facebook </a></ul></td>
 	<script> 
 document.write(document.lastModified);

@@ -1,15 +1,17 @@
+
 <html>
 <head>
-<link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
+<link href="CSSDesign1.css" rel="stylesheet" type="text/css" /> <!-- CSS Code is the desgin used and implanted onto the page-->
 <link href="navbar.css" rel="stylesheet" type="text/css" />
-<?php session_start();?>
-<Title> Prism Games | Register</title>
+<link rel='shortcut icon' type='image/ico' href='favicon.ico' /><!--Page wrap uses comments to page sure the logo doesn't move.-->
+<?php session_start();?><!-- php session start login in and starts using php-->
+<Title> Prism Games | Game Review</title><!-- Title page display is tab-->
 </head>
-
 <body>
-<div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--
+<!--Page wrap uses comments to page sure the logo doesn't move.-->
+<div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--Logo placed within the top [ar
 --><img src="LOGO3.png" alt="lOGO" style="width:200px; height:150px"><h1 style="font-size: 14px; text-align: center;">PRISM GAMES</h1><!--
---></div><div class="Hold"><div class="Login">
+login script for users acesss specail privileges  --></div><div class="Hold"><div class="Login">
 <?php include('login-script.php'); ?>
 </div>
 <div class="Search_Bar">
@@ -46,7 +48,7 @@
 <div class='main-content'>
 
 
-
+<!-- Form register, where feilds that are rquired to be filled out are stated and and action before submitting the regsisteron-->
 <h1>Register: </h1>
 <table><tr><td>
 <form id = "register" method="post" action= "usrRegister.php">
@@ -67,7 +69,8 @@
     <button type=submit>Register</button></td></tr>
 </form>
 </table>
-
+<!-- php session are used so the user's information is inserted and placed into the cutsomer table within the database uses a database connectio
+so that code isn't repated on the same page-->
 <?php
 $Session_name = "user";
 $Session_pass = "pass";
@@ -108,29 +111,24 @@ header('Location: /~2027c_1/Homepage.php');
 $db->close();
 }
 ?>
- 
+<!-- php needs to have a die query incase something goes run.-->
+ <!-- session uses the post method to implant the data, and uses randomnumber to create the id for the user.-->
   
-
-    
-    </div>    
 <div class="footer">
-<table>
+<table> <!--table used to place links for the footer in a stairght line-->
 </tr>
 <center>
-<td><ul><a href="feedbackform.php">Feedback Form</a></ul></td>
-
-	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
-	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
-	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
-	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
-	<td><ul><a href="">Facebook </a></ul></td>
-	<script> 
-document.write(document.lastModified);
-</script>
+<td><li><a href="feedbackform.php">Feedback Form</a></li></td>
+<td><li><a href="contactus.php">Contact Us</a></li></td>
+<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
+<td><li><a href="GameReview.php">Game Reviews </a></li></td>
+<td><li><a href=""> Twitter </a></li></td>
+<td><li><a href="">Facebook </a></li></td>
 </center>
 </tr>
 </table>
-	
 </div>
-</body>
+</body>    
+</div>
 </html>
+  

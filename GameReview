@@ -57,7 +57,7 @@ login script for users acesss specail privileges  --></div><div class="Hold"><di
 <table class="reviewtable" border="0" width="200px" align="center" "border-spacing: 10px;">
 <tr width="200px">
   
-<td style="padding:80px 20px 20px 20px;"><img src ="./gameimages/19.png" width="300px" height="400px"> </td>	
+<td style="padding:80px 20px 20px 20px;"><img src ="./gameimages/19.png" width="300px" height="400px"> </td><!--Images to follow same size and placed within table.-->	
 <td style="padding:80px 20px 20px 20px;"><img src ="./gameimages/51.png" width="300px" height="400px"> </td>	
 
 <tr>

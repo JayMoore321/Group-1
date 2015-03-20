@@ -1,0 +1,140 @@
+/* CSS layout */
+
+body {/* sets the style of the websites outer surroundings. */
+	margin: 0;
+	padding: 10;
+	background-color: #F9FFE2;; /*light green*/
+	height:100%;
+	}
+div.Pagewrap{
+border-style: solid;
+border-width: 0px;
+width: 1050px;
+margin: auto;
+background-color: #F9FFE2;    
+     
+}
+div.Logo{
+height: 150px;
+background-color: #F9FFE2;
+width: 200px;
+display: inline-block;
+   
+}
+div.Hold{
+width: 850px;
+background-color: #F9FFE2;
+display: inline-block;
+height: 175px;    
+
+}
+div.Login{
+height: 50px;
+width: 700px;
+background-color: #F9FFE2;
+display: inline-block;
+margin-bottom: 62px;
+    margin-left: 145px;
+}
+div.Login a {
+display: inline-block; 
+margin-left: 310px; 
+margin-top: -20px;       
+}   
+
+div.Login form {
+ display: inline-block;    
+    
+}
+div.Top-Bar{
+height: 225px;
+background-color: #F9FFE2;    
+}
+div.Basket{
+height: 50px;
+width: 200px;
+background-color: #F9FFE2;
+display: inline-block;
+margin-left: 242px;
+}
+
+div.Search_Bar{
+height: 50px;
+width: 300px;
+background-color: #AE3434;
+display: inline-block;
+margin-right: 100px;
+margin-bottom: 0px;   
+    
+}
+
+div.Nav_Bar{
+height: 50px;
+background-color: #84DDA4;
+} 
+
+div.footer
+{
+padding:1 em;
+color:white;
+background-color:#C4C4C4;
+clear:left;
+font-size:70%;
+text-align:center;
+}
+#nav,
+#nav ul,
+#nav li,
+#nav a {
+  list-style: none;
+  margin:0 auto;
+  padding:0;
+  border: 0;
+  font-size: 20px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 1;
+}
+#nav {
+  width: 1200px;
+
+}
+#nav ul {
+  display: inline-block;
+  background: #5AD258;
+  border: 0px solid #586CD2;
+  
+}
+
+#nav a:link,
+#nav a:visited {
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-right: 0px solid #586CD2;
+  text-align:center;
+  width:170px	
+}
+#nav a:hover {
+  color: white;
+ 
+}
+#nav li {
+  float: left;
+  border-right: 0px solid #586CD2;
+}
+#nav li:hover {
+  background: #586CD2;
+}
+
+div.productBox {
+width: 276px; 
+margin:10 auto; 
+margin-right:10; 
+height:400px; 
+border:30px solid #586CD2; 
+border-radius:30px; 
+moz-border-radius:30px; 
+webkit-border-radius:30px; 
+display: inline-block;  
+}

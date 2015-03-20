@@ -4,7 +4,7 @@
 <link href="navbar.css" rel="stylesheet" type="text/css" />
 <link rel='shortcut icon' type='image/ico' href='favicon.ico' />
 <?php session_start();?>
-<Title> Prism Games | Review</title>
+<Title> Prism Games | Homepage</title>
 </head>
 <body>
 <div class="Pagewrap"><div class="Top-Bar"><div class="Logo"><!--
@@ -46,65 +46,70 @@
 </ul>
 </div></div>
 <div class="Main-Content">
-<?php 
-$gameid = $_GET["gameid"];
-    include('DB_connection.php');
 
-$sql= "select * from PRODUCTS WHERE gameid =$gameid";
-$result=$db ->query($sql);
-if(!$result){
-die('There was an error running the query' .$db->error);
-}
-
-if ($result->num_rows > 0) {
-    while($row = $result->fetch_assoc()) {
-        $name = $row["gamename"];
-        $console = $row["console"];
-        $genre = $row["genre"];
-        $price = $row["price"];
-        $description = $row["description"];
-	$paycode = $row["paycode"];
-                                                }
-                                         }
-?>
-</br>
-<h1><?php echo($name); ?></h1>
-
-<img  style="float:left" src ="./gameimages/<?php echo($gameid)?>.png" width="300px" height="450px">
-
-<div  style="float:left">
-</br>
-    <?php echo($description); ?>
 </br>
 
-<p><h3>Price: £<?php echo($price); ?></h3></p>
 
-<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="<?php echo($paycode)?>">
-<input type="image" src="http://www.computing.northampton.ac.uk/~2027c_1/basket.png" border="0" name="submit" alt="PayPal ñ The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+<img  style="float:left" src ="./gameimages/19.png" width="320px" height="460px">
 
 
+
+<iframe width="700" height="480" align="right" src="https://www.youtube.com/embed/OQWD5W3fpPM" frameborder="0" allowfullscreen></iframe></p>
+
+
+
+<p align="right center" style="
+  
+    he: 400px;
+    display: inline-block;
+  
+">
+
+The Last of Us is an action-adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment. It was released for the PlayStation 3 on June 14, 2013; an updated version, The Last of Us Remastered, was released for the PlayStation 4 on July 29, 2014. The player controls Joel, a man tasked with escorting the young Ellie across a post-apocalyptic United States.
+
+<p>The Last of Us is played from a third-person perspective; players use firearms, improvised weapons and stealth to defend against hostile humans and zombie-like creatures infected by a mutated strain of the Cordyceps fungus. "Listen mode" lets players locate enemies through a heightened sense of hearing and spatial awareness. Players can also customize weapons and items using items scavenged from the environment. In the game's online multiplayer, up to eight players engage in co-operative and competitive gameplay in recreations of single-player settings.
+</p>
+
+The Last of Us Remastered is released for PS4
+its amazing
+
+
+something else here
+<p><h1> Graphics rating </h1></p>
+<p><img  style="" src ="./reviewimages/One.png" width="400px" height="150px"></p>
+
+<p><h1> Gaming rating </h1></p>
+<p><img  style="" src ="./reviewimages/R2.jpg" width="400px" height="150px"></p>
+ 
+<p><h1> Overall rating </h1></p>
+<p><img  style="" src ="./reviewimages/R3.jpg" width="400px" height="150px">
+ 
+
+
+<CHANGE THIS TO THE TRANS>
+
+</br>
+</br>
 </form>
 </div>
 
-   
-</div>
+ 
+
+
+    
+
        
 <div class="footer">
-
-
 <table>
-</tr>
+<tr>
 <center>
-    <td><ul><li><a href="feedbackform.php">Feedback Form</a></li></ul></td>
+<td><ul><a href="feedbackform.php">Feedback Form</a></ul></td>
 
-	<td><li><a href="contactus.php">Contact Us</a></li></td>
-	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
-	<td><li><a href="GameReview.php">Game Reviews </a></li></td>
-	<td><li><a href=""> Twitter </a></li></td>
-	<td><li><a href="">Facebook </a></li></td>
+	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
+	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
+	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
+	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
+	<td><ul><a href="">Facebook </a></ul></td>
 	<script> 
 document.write(document.lastModified);
 </script>

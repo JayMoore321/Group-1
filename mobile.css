@@ -1,0 +1,173 @@
+/* CSS layout */
+
+body {/* sets the style of the websites outer surroundings. */
+	margin: 0;
+	padding: 10;
+	background-color: #F9FFE2;; /*light green*/
+	height:100%;
+    width: 200px;
+	} 
+div.Pagewrap {
+border-style: solid;
+border-width: 1px;
+width: 340px;
+min-height: 2120px;
+margin: auto;
+background-color: #F9FFE2;    
+     
+}
+div.slideshow{
+ display: none;   
+    
+}
+
+div.Logo{
+/*height: 150px; */
+background-color: #F9FFE2;
+width: 200px;
+/* display: inline-block;
+display: none;*/
+   
+}
+div.Hold{
+width: 340px;
+background-color: #F9FFE2;
+/* display: inline-block; */
+height: 245px;    
+
+} 
+
+div.Login{
+height: 195px;
+width: 340px;
+background-color: #F9FFE2;
+display: block;  
+/* display: inline-block; */
+<!--margin-bottom: 62px; -->
+<!--margin-left: 145px; -->
+}
+div.Login p {
+color: #0EE6F2;
+    
+}
+div.Login form {
+display: block;   
+     
+}
+div.Login input {
+display: block;  }
+
+div.Top-Bar{
+height: 645px;
+width: 340px;
+background-color: #F9FFE2; 
+    
+}
+div.Basket{
+height: 50px;
+background-color: #F9FFE2;
+}
+
+div.Search_Bar{
+display: none; 
+height: 50px;
+width: 340px;
+background-color: #F9FFE2;
+/*display: inline-block; */
+margin-right: 100px;
+margin-bottom: 0px;   
+    
+}
+
+div.Nav_Bar{
+height: 50px;
+width: 340px;
+background-color: #84DDA4;
+} 
+
+div.footer
+{
+width: 340px;
+padding:1 em;
+color:white;
+background-color:#C4C4C4;
+clear:left;
+font-size:70%;
+text-align:center;
+}
+div.footer ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;      
+}
+div.footer li {
+ display: inline;
+       margin: 10px;
+}
+
+
+#nav,
+#nav ul,
+#nav li,
+#nav a {
+  list-style: none;
+  margin:0 auto;
+padding: 0 0 20px;
+  border: 0;
+  font-size: 20px;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  line-height: 1;
+  text-decoration: none;
+}
+#nav {
+  width: 350px;
+
+}
+#nav ul {
+  display: inline-block;
+  background: #5AD258;
+  border: 0px solid #586CD2;
+width: 340px;
+text-align: center;
+margin-bottom: 10px;
+border-style: solid;
+border-width: 1px;
+  
+}
+
+#nav a:link,
+#nav a:visited {
+  color: white;
+}
+#nav a:hover {
+  color: white;
+ 
+}
+#nav li {
+  /*float: left; */
+  border-right: 0px solid #586CD2;
+}
+#nav li:hover {
+  background: #586CD2;
+}
+
+div.productBox {
+margin: 10px;   
+width: 276px; 
+margin:10 auto; 
+margin-right:10; 
+height:400px; 
+border:30px solid #586CD2; 
+border-radius:30px; 
+moz-border-radius:30px; 
+webkit-border-radius:30px; 
+display: inline-block;  
+
+    
+}
+div.Main-Content{
+background-color: #F9FFE2;
+min-height: 600px;    
+    
+}
+

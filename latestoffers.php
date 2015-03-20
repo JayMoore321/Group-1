@@ -37,7 +37,7 @@
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
 ">
-        <input type="image" src="http://www.computing.northampton.ac.uk/~2027c_1/Cart.png" border="0" name="submit" alt="PayPal â€“ The safer, easier way to pay online." wisth="50" height="50">
+        <input type="image" src="http://www.computing.northampton.ac.uk/~2027c_1/Cart.png" border="0" name="submit" alt="PayPal – The safer, easier way to pay online." wisth="50" height="50">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
         </form>
 	
@@ -58,13 +58,13 @@
 
 <div class="promo">
 
-<div style ="width: 280px; margin:10 auto; margin-right:10; height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="280px" align="center" border-spacing: 10px;">
+<div style ="width: 280px; margin:10 auto; margin-right:10; height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="280px" align="center" border-spacing: 10px;">
 
 
 <tr>  
 <tr width="200px">
-    <td align="center"><h2> Under Â£20</h2> </td>
+    <td align="center"><h2> Under £20</h2> </td>
 
 
   </tr>
@@ -86,13 +86,13 @@
  
  
 </div>  
-<div style ="width: 280px; margin:10 auto; margin-right:10; height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="280px" align="center" border-spacing: 10px; display: inline-block; ">
+<div style ="width: 280px; margin:10 auto; margin-right:10; height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="280px" align="center" border-spacing: 10px; display: inline-block; ">
 
 
 <tr>  
 <tr width="200px">
-    <td align="center"><h2> Under Â£30</h2> </td>
+    <td align="center"><h2> Under £30</h2> </td>
 
 
   </tr>
@@ -117,13 +117,13 @@
 
 
 
-<div style ="width: 282px; margin:10 auto; height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="282px" align="center" border-spacing: 10px;">
+<div style ="width: 282px; margin:10 auto; height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="282px" align="center" border-spacing: 10px;">
 
 
 <tr>  
 <tr width="200px">
-    <td align="center"><h2> Under Â£40</h2> </td>
+    <td align="center"><h2> Under £40</h2> </td>
 
 
   </tr>
@@ -148,8 +148,8 @@
 </div>  
  
 
-<div style ="width: 280px; margin-right: 10; margin-left: 10; height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="280px" align="center" border-spacing: 10px;">
+<div style ="width: 280px;   height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="280px" align="center" border-spacing: 10px;">
 
 
 <tr>  
@@ -178,8 +178,8 @@
 
 </div>  
 
-<div style ="width: 280px;  height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="280px" align="center" border-spacing: 10px;">
+<div style ="width: 280px; margin-right: 10; margin-left: 10; height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="280px" align="center" border-spacing: 10px;">
 
 
 <tr>  
@@ -208,8 +208,8 @@
 
 </div> 
 
-<div style ="width: 282px;  height:400px; border:30px solid purple; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
- <table style="background:green; border="0" width="282px" align="center" border-spacing: 10px;">
+<div style ="width: 282px;  height:400px; border:30px solid #586CD2; border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px; display: inline-block;" >
+ <table style="background:#5AD258; border="0" width="282px" align="center" border-spacing: 10px;">
 
 
 <tr>  
@@ -251,7 +251,7 @@
 
 	<td><li><a href="contactus.php">Contact Us</a></li></td>
 	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
-	<td><li><a href=""> Twitter </a></li></td>
+	<td><li><a href="https://twitter.com/Prism_Games_"> Twitter </a></li></td>
 	<td><li><a href="">Facebook </a></li></td>
 	<script> 
 document.write(document.lastModified);

@@ -137,7 +137,7 @@ http://www.computing.northampton.ac.uk/~2027c_1/reset-password.php?emailadd=<?ph
 	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
 	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
 	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
-	<td><ul><a href=""> Twitter </a></ul></td>
+	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
 	<td><ul><a href="">Facebook </a></ul></td>
 	<script> 
 document.write(document.lastModified);

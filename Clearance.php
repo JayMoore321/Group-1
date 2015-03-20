@@ -1,4 +1,4 @@
-          <html>
+<html>
 <head>
 <link href="CSSDesign1.css" rel="stylesheet" type="text/css" />
 <link href="navbar.css" rel="stylesheet" type="text/css" />
@@ -64,7 +64,7 @@
 
 <h1 style="color:red"><p><center>Clearance - Must Go </center></p></h1>
     
- <div style ="width: 1050px; margin:0 auto; height:1000px; border:0px solid black; overflow:scroll; overflow-y:hidden;>
+ <div style ="width: 1050px; margin:0 auto; height:1000px; border:0px solid black; overflow:scroll; overflow-y:hidden;"">
  <table class="ps4table" border="0" width="2000px" align="center" "border-spacing: 10px;">
   <tr width="200px">
 
@@ -81,9 +81,7 @@
 
 
 
-<div id='ps4page'>
 
-</div>
 
 <div id='ps4page'>
 
@@ -155,7 +153,7 @@
 	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
 	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
 	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
-	<td><ul><a href=""> Twitter </a></ul></td>
+	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
 	<td><ul><a href="">Facebook </a></ul></td>
 	<script> 
 document.write(document.lastModified);

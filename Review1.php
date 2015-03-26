@@ -65,28 +65,28 @@
   
 ">
 
-The Last of Us is an action-adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment. It was released for the PlayStation 3 on June 14, 2013; an updated version, The Last of Us Remastered, was released for the PlayStation 4 on July 29, 2014. The player controls Joel, a man tasked with escorting the young Ellie across a post-apocalyptic United States.
+The Last of Us Remastered is released for PS4 this week. We're confident that our review of the original PS3 game applies to this edition too, so here's the original review - first published on 5th June 2013 - in full. In the left-hand column you'll find links to our review of the included add-on Left Behind and a few of our other favourite articles about the game. For a closer look at the PS4 edition, check Digital Foundry's analysis of the remaster, or its PS3 vs PS4 face-off.
 
-<p>The Last of Us is played from a third-person perspective; players use firearms, improvised weapons and stealth to defend against hostile humans and zombie-like creatures infected by a mutated strain of the Cordyceps fungus. "Listen mode" lets players locate enemies through a heightened sense of hearing and spatial awareness. Players can also customize weapons and items using items scavenged from the environment. In the game's online multiplayer, up to eight players engage in co-operative and competitive gameplay in recreations of single-player settings.
-</p>
+The Last of Us, a surpassingly confident and handsome survival thriller from the cinematic populists at Naughty Dog, serves the post-apocalypse straight. Set 20 years after a fungal disease brings American society down and turns the infected into mindless monsters, its gorgeously ruined world, zombie body horror and cynical portrayal of survivors turning on each other are all very familiar themes right now. They don't come from the collective subconscious of a world in crisis so much as from a dozen tastefully chosen inspirations, among them The Walking Dead, Half-Life 2, 28 Days Later and The Road.
 
-The Last of Us Remastered is released for PS4
-its amazing
+There's another layer of modern mythology at work though, and it's a quintessentially American one. The story follows Joel, a taciturn and bitter Texan smuggler, and Ellie, a precocious teenager, as they travel from Boston, through lawless Pittsburgh and all the way west to the Rockies, covering the best part of a year as it does so. The seasons change and the pair have to fight off bandits and scrape together what they can from their surroundings to survive, often travelling on foot, sometimes on horseback. It's the classic journey into the west, the pioneer's tale - but turned on its head, because this anti-Western isn't about the birth of a nation. It's about the death of one.
+
+This melancholy twist is just one of several things that lifts The Last of Us far above its clichéd basis. The others are the outstanding engineering and art and sound design, the fine direction and performances, the touching relationship of the two leads and the tough, tense action gameplay.
 
 
 something else here
 <p><h1> Graphics rating </h1></p>
-<p><img  style="" src ="./reviewimages/One.png" width="400px" height="150px"></p>
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px"></p>
 
 <p><h1> Gaming rating </h1></p>
-<p><img  style="" src ="./reviewimages/R2.jpg" width="400px" height="150px"></p>
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px"></p>
  
 <p><h1> Overall rating </h1></p>
-<p><img  style="" src ="./reviewimages/R3.jpg" width="400px" height="150px">
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px">
  
 
 
-<CHANGE THIS TO THE TRANS>
+
 
 </br>
 </br>
@@ -110,9 +110,7 @@ something else here
 	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
 	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
 	<td><ul><a href="">Facebook </a></ul></td>
-	<script> 
-document.write(document.lastModified);
-</script>
+
 </center>
 </tr>
 </table>

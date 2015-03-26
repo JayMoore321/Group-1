@@ -68,7 +68,7 @@ login script for users acesss specail privileges  --></div><div class="Hold"><di
     display: inline-block;
   
 ">
-
+<!--display of images to the left and the information to be on the right-->
 The Last of Us Remastered is released for PS4 this week. We're confident that our review of the original PS3 game applies to this edition too, so here's the original review - first published on 5th June 2013 - in full. In the left-hand column you'll find links to our review of the included add-on Left Behind and a few of our other favourite articles about the game. For a closer look at the PS4 edition, check Digital Foundry's analysis of the remaster, or its PS3 vs PS4 face-off.
 
 The Last of Us, a surpassingly confident and handsome survival thriller from the cinematic populists at Naughty Dog, serves the post-apocalypse straight. Set 20 years after a fungal disease brings American society down and turns the infected into mindless monsters, its gorgeously ruined world, zombie body horror and cynical portrayal of survivors turning on each other are all very familiar themes right now. They don't come from the collective subconscious of a world in crisis so much as from a dozen tastefully chosen inspirations, among them The Walking Dead, Half-Life 2, 28 Days Later and The Road.

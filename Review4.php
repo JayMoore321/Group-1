@@ -82,30 +82,22 @@ Packing in all those activities - from trash-diving to skydiving - hasn't impede
 
 something else here
 <p><h1> Graphics rating </h1></p>
-<p><img  style="" src ="./reviewimages/One.png" width="400px" height="150px"></p>
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px"></p>
 
 <p><h1> Gaming rating </h1></p>
-<p><img  style="" src ="./reviewimages/R2.jpg" width="400px" height="150px"></p>
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px"></p>
  
 <p><h1> Overall rating </h1></p>
-<p><img  style="" src ="./reviewimages/R3.jpg" width="400px" height="150px">
+<p><img  style="" src ="./reviewimages/3.png" width="400px" height="150px">
  
-
-
-<CHANGE THIS TO THE TRANS>
 
 </br>
 </br>
 </form>
 </div>
 
- 
-
-
-    
-
        
-<div class="footer">
+<div class="footer"> <!--table used to place links for the footer in a stairght line-->
 <table>
 <tr>
 <center>
@@ -116,9 +108,7 @@ something else here
 	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
 	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
 	<td><ul><a href="">Facebook </a></ul></td>
-	<script> 
-document.write(document.lastModified);
-</script>
+
 </center>
 </tr>
 </table>

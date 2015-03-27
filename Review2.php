@@ -82,15 +82,10 @@ something else here
 <p><img  style="" src ="./reviewimages/2.png" width="400px" height="150px"></p>
  
 <p><h1> Overall rating </h1></p>
-<p><img  style="" src ="./reviewimages/2.png" width="400px" height="150px">
+<p><img  style="" src ="./reviewimages/2.png" width="400px" height="150px"></p>
  
-
-
-
-
 </br>
 </br>
-</form>
 </div>
 
 <!--table used to place links for the footer in a stairght line-->

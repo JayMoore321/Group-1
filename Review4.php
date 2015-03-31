@@ -102,20 +102,15 @@ something else here
 <tr>
 <center>
 <td><ul><a href="feedbackform.php">Feedback Form</a></ul></td>
-
-	<td><ul><a href="contactus.php">Contact Us</a></ul></td>
-	<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
-	<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
-	<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
-	<td><ul><a href="">Facebook </a></ul></td>
-
+<td><ul><a href="contactus.php">Contact Us</a></ul></td>
+<td><ul><a href="productguarantee.php">Product Guarantee </a></ul></td>
+<td><ul><a href="GameReview.php">Game Reviews </a></ul></td>
+<td><ul><a href="https://twitter.com/Prism_Games_"> Twitter </a></ul></td>
+<td><ul><a href="">Facebook </a></ul></td>
 </center>
 </tr>
 </table>
-	
 </div>
-        
-
- </div>   
+</div>   
 </body>
 </html>

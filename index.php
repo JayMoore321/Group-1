@@ -13,37 +13,42 @@ if(isset($_POST['search'])) {
 	$searchq = $_POST['search'];
 	$searchq = preg_replace("#[^0-9a-z]#i","",$searchq);
 	
-	$query = mysql_query("SELECT * FROM PRODUCTS WHERE gamenames LIKE '%$searchq%'") or die("Could not search");
-	$count = mysql_num_rows($query);
+	$query = mysqli_query($db,"SELECT * FROM PRODUCTS WHERE gamename = '$searchq'") or die("Could not search");
+	$count = mysqli_num_rows($query);
 	if($count == 0) {
 		$output = 'There were no search results';}
 		
 		else{
-	while($row = mysql_fetch_array($query)) {
-	  $fname = $row['gamenames']	;
+	while($row = mysqli_fetch_array($query)) {
+	  $fname = $row['gamename'];
+	  $id = $row['gameid'];
+
 	  
-	  $output .= '<div> '.$fname.' </div>';
-	  
+	 $output .= '<div>' .$id. '</div>';
+	
 		
-	}	
+	}
+	/*
+?> <a  href="ProductPage.php?gameid=
+	<?php echo $id ?>"<?php echo($fname)?></a> 
+<!--<?php echo("$id"); ?>"> 
+<?php $output ?> </p><?php ; ?>  -->
+*/
 }
 }
 
-	
-	
-		
+	?>
 
 <html>
 
 
 <body>
-<form action="index.php" method="post">
-  <input type="text" name="search" placeholder="Search for games"/>
-  <input type="submit" value=">>" />
+<form action="searchResults.php" method="post">
+  <input type="text" name="search" placeholder="Search for games" style="width:200px; height:30px; font-size:20;"/>
+  <input type="submit" value=">"/>
 
 </form>
 
-<?php print("$output");?>
 
 
 </body>

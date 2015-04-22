@@ -114,7 +114,7 @@ $db->close();
 <!-- php needs to have a die query incase something goes run.-->
  <!-- session uses the post method to implant the data, and uses randomnumber to create the id for the user.-->
   
-<div class="footer">
+<div class="footer"><!--footer div started-->
 <table> <!--table used to place links for the footer in a stairght line-->
 </tr>
 <center>
@@ -131,4 +131,3 @@ $db->close();
 </body>    
 </div>
 </html>
-  

@@ -161,33 +161,20 @@ return true;
 </div>
     
 </div>    
-<div class="footer">
-
-
-<table>
-</tr>
-<center>
-<div class="footer">
-
-
-<table>
+<div class="footer"><!--footer div started-->
+<table> <!--table used to place links for the footer in a stairght line-->
 </tr>
 <center>
 <td><li><a href="feedbackform.php">Feedback Form</a></li></td>
-
-	<td><li><a href="contactus.php">Contact Us</a></li></td>
-	<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
-	<td><li><a href="https://twitter.com/Prism_Games_"> Twitter </a></li></td>
-	<td><li><a href="">Facebook </a></li></td>
-	<script> 
-document.write(document.lastModified);
-</script>
+<td><li><a href="contactus.php">Contact Us</a></li></td>
+<td><li><a href="productguarantee.php">Product Guarantee </a></li></td>
+<td><li><a href="GameReview.php">Game Reviews </a></li></td>
+<td><li><a href=""> Twitter </a></li></td>
+<td><li><a href="">Facebook </a></li></td>
 </center>
 </tr>
 </table>
-	
 </div>
-        
-    
-</body>
+</body>    
+</div>
 </html>
